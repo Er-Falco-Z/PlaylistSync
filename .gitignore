@@ -1,0 +1,31 @@
+# PYTHON - Ambiente e compilati
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# SPOTIFY/TIDAL - Dati sensibili e cache
+spotify_cache/
+spotify_liked_songs.json
+tidal_session.json
+tidal_not_found.json
+tidal_match.log.json
+tidal_import.log.json
+
+# Log e temporanei
+*.log
+*.log.json
+
+# IDE e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# NON tracciati (ma salva se vuoi condividere)
+# spotify_export.py     ← VIENE CARICATO ✓
+# tidal_check_and_clear.py ✓
+# tidal_clear_favourites.py ✓
